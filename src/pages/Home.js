@@ -6,7 +6,7 @@ import ProductCard from "../components/ProductCard";
 import SpecialProduct from "../components/SpecialProduct";
 import Container from "../components/Container";
 import famous1 from "../images/famous-1.jpg";
-// import { services } from "../utils/Data";
+import { services } from "../utils/Data";
 
 const Home = () => {
     return (
