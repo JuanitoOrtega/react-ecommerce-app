@@ -119,10 +119,7 @@ const Header = () => {
                                                 Shop Categories
                                             </span>
                                         </button>
-                                        <ul
-                                            className="dropdown-menu"
-                                            aria-labelledby="dropdownMenuButton1"
-                                        >
+                                        <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                             <li>
                                                 <Link className="dropdown-item text-white" to="">
                                                     Action

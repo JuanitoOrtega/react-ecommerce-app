@@ -1,17 +1,17 @@
-import React from 'react';
+import React from "react";
 import BreadCrumb from "../components/BreadCrumb";
 import Meta from "../components/Meta";
 import Container from "../components/Container";
 
-const About = () => {
+const PrivacyPolicy = () => {
     return (
         <>
-            <Meta title={"About Us"} />
-            <BreadCrumb title="About Us" />
-            <Container className="policy-wrapper py-5 home-wrapper-2">
+            <Meta title={"Privacy Policy"} />
+            <BreadCrumb title="Privacy Policy" />
+            <Container class1="policy-wrapper py-5 home-wrapper-2">
                 <div className="row">
                     <div className="col-12">
-                        <div className="about">About Us</div>
+                        <div className="policy"></div>
                     </div>
                 </div>
             </Container>
@@ -19,4 +19,4 @@ const About = () => {
     );
 }
 
-export default About;
+export default PrivacyPolicy;
